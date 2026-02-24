@@ -15,6 +15,7 @@ function findMax(arr) {
 console.log(findMax([3, 5, 7, 2, 8]));
 
 
+
 // 2. Write a function named countWords that takes a string and returns the number of words in the string.
 
 function countWords(str) {
@@ -34,3 +35,13 @@ function calculateDifference(a, b) {
   return a - b;
 }
 console.log(calculateDifference(10, 3));
+
+
+
+// 4. Write a function named filterEvenNumbers that takes an array of numbers and returns a new array containing only the even numbers.
+
+function filterEvenNumbers(arr) {
+  return arr.filter(num => num % 2 === 0);
+}
+console.log(filterEvenNumbers([1, 2, 3, 4, 5, 6]));
+
