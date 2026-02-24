@@ -26,3 +26,11 @@ function countWords(str) {
 }
 console.log(countWords("Hello world!"));
 
+
+
+// 3. Write a function named calculateDifference that takes two arguments and returns the difference between the first and second arguments.
+
+function calculateDifference(a, b) {
+  return a - b;
+}
+console.log(calculateDifference(10, 3));
