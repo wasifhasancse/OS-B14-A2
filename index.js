@@ -61,4 +61,11 @@ function isLeapYear(year) {
   }
   return false;
 }
-console.log(isLeapYear(2020)); 
+console.log(isLeapYear(2020));
+
+
+// 7. Write a function named reverseString that takes a string and returns the reversed version of that string.
+function reverseString(str) {
+  return str.split("").reverse().join("");
+}
+console.log(reverseString("JavaScript"));
