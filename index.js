@@ -54,6 +54,8 @@ function sortArrayDescending(arr) {
 }
 console.log(sortArrayDescending([3, 1, 4, 1, 5, 9, 2, 6]));
 
+
+
 // 6. Write a function named isLeapYear that takes a year as an argument and returns true if the year is a leap year, and false if it is not.
 function isLeapYear(year) {
   if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
@@ -69,3 +71,11 @@ function reverseString(str) {
   return str.split("").reverse().join("");
 }
 console.log(reverseString("JavaScript"));
+
+
+
+// 8. Write a function named sumArray that takes an array of numbers and returns the total sum of all elements.
+function sumArray(arr) {
+  return arr.reduce((sum, num) => sum + num, 0);
+}
+console.log(sumArray([1, 2, 3, 4, 5]));
