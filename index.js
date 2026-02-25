@@ -25,7 +25,7 @@ function countWords(str) {
   const words = str.trim().split(" ");
   return words.length;
 }
-console.log(countWords("Hello world!"));
+console.log(countWords("I am learning JavaScript functions."));
 
 
 
@@ -53,3 +53,12 @@ function sortArrayDescending(arr) {
   return arr.sort((a, b) => b - a);
 }
 console.log(sortArrayDescending([3, 1, 4, 1, 5, 9, 2, 6]));
+
+// 6. Write a function named isLeapYear that takes a year as an argument and returns true if the year is a leap year, and false if it is not.
+function isLeapYear(year) {
+  if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+    return true;
+  }
+  return false;
+}
+console.log(isLeapYear(2020)); 
